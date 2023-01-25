@@ -1,7 +1,8 @@
 # Testing a rate
 
-Trivial example of running tests of a dockerized application repeatedly
-with various setting and access their success rate.
+Trivial example of running a test of a dockerized application multiple times
+accross various settings (passed as environmental files) and access their
+success rates under various configuration.
 
 ## Thing to be tested
 
