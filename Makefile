@@ -7,8 +7,9 @@ run: build
 bash: build
 	docker run -it flaky bash
 
-TEST_CMD=python -m pytest --tb=no --count=10 .
-OUT_DIR=_out
+TEST_COUNT = 100
+TEST_CMD = python -m pytest --tb=no --count=${TEST_COUNT} .
+OUT_DIR = _out
 
 test: build
 	mkdir -p ${OUT_DIR}
