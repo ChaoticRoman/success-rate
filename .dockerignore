@@ -1,3 +1,9 @@
+README.md
+.gitignore
+.dockerignore
+Makefile
+Dockerfile
+.env*
 __pycache__
 *.pyc
 *.pyo
@@ -14,7 +20,7 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-.git
+.git*
 .mypy_cache
 .pytest_cache
 .hypothesis
